@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	token := os.Getenv("TELEGRAM_BOT_TOKEN")
+	token := os.Getenv("5666582349:AAH-ZwXbKMHSEc7Fff_uV1QsQiEXrUuOvhw")
 	if token == "" {
 		slog.Error("TELEGRAM_BOT_TOKEN is required")
 	}
